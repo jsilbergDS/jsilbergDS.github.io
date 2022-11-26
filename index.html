@@ -1,0 +1,99 @@
+---
+layout: default
+title: Personal Webpage
+---
+<!-- ========== BIO ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+  <p>
+  I'm a master's student at Stanford in Data Science (Department of Statistics). I work in the <a href="https://stanfordmlgroup.github.io/">Stanford Machine Learning Group</a>, supervised by Jeremy Irvin and Andrew Ng. My current research applies on the application of Active Learning, Human-Computer Interaction, and Transformers to satellite and medical imagery. More information on my current research is in the Projects section. 
+  </p>
+  <p>
+  My Bachelor's degree is in Social Studies from Harvard, with a minor in Global Health and Health Policy. My major thesis focused on education policy, specifically attendance patterns and peer effects in an urban school district. My thesis was awarded a Hoopes Prize for Outstanding Undergraduate Research. My minor research paper focused on the effects of neighborhood socioeconomic status on local hospital quality, and was used as the "example paper" for students the following year.
+  </p>
+</div>
+
+<!-- ========== PROJECTS ========== -->
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
+  <div class="tab-pane" id="projects-all">
+    {% for project in site.data.projects.projects %}
+      {% assign index_modulo = forloop.index0 | modulo:3 %}
+      {% if index_modulo == 0 %}
+        <div class="row">
+      {% endif %}
+
+        <div class="four columns">
+          <div class="project-container">
+
+              <div class="project-image-container">
+                <a href="{{ project.url }}">
+                  <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                </a>
+              </div>
+
+              <div class="project-caption">
+                <b>{{ project.title }}</b> <br/>
+                {{ project.subtitle }}
+              </div>
+
+          </div>
+        </div>
+
+      {% if index_modulo == 2 %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div>
+
+
+<!-- ========== TEACHING ========== -->
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+    <div class="container">
+      <div class="columns">
+        <div class="one-half column">
+          <a href="https://stanfordmlgroup.github.io/programs/aicc-bootcamp/">
+            <img src="/assets/bootcamps/aicc-bootcamp.png" style="padding-left: 1%; padding-right: 1%; width: 98%;"/>
+          </a>
+        </div>
+        <div class="one-half column">
+          <a href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp/">
+            <img src="/assets/bootcamps/aihc-bootcamp.png" style="padding-left: 1%; padding-right: 1%; width: 98%;"/>
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- ========== NEWS ========== -->
+<div class="docs-section" id="news">
+  <h4>In the News</h4>
+    <h5>AI for Climate Change</h5>
+    <div class="tab-pane active" id="news">
+      {% for news in site.data.climate_news.news %}
+        <div class="paper">
+          <a href="{{ news.link }}">{{ news.source }}</a>
+        </div>
+      {% endfor %}
+    </div>
+    <h5>AI for Medicine</h5>
+    <div class="tab-pane active" id="news">
+      {% for news in site.data.medicine_news.news %}
+        <div class="paper">
+          <a href="{{ news.link }}">{{ news.source }}</a>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+
+<div class="docs-section" id="ack">
+  <h4>Acknowledgement</h4>
+  <p>
+    This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>.
+  </p>
+
+</div>
