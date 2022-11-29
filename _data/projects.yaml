@@ -1,13 +1,13 @@
 projects:
-  - title: "METER-ML"
-    subtitle: "METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping"
+  - title: "InterActive Learning Toolkit"
+    subtitle: "A Framework for Solving the Cold Start Problem in Active Learning for Unlabelled Data"
     thumbnail: "assets/projects/meter-ml/fig0.png"
-    url: "https://stanfordmlgroup.github.io/projects/meter-ml/"
+    url: "https://stanfordmlgroup.github.io/InterActive-Learning-Toolkit/"
     selected: y
 
-  - title: "OGNet"
-    subtitle: "OGNet: Towards a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery"
+  - title: "Modeling Highway Removal"
+    subtitle: "Using Generative Modeling to Reimagine Neighborhood Reconnections"
     thumbnail: "assets/projects/ognet/fig2.png"
-    url: "https://stanfordmlgroup.github.io/projects/ognet/"
+    url: "https://jsilbergds.github.io/modeling-highway-removal/"
     selected: y
 
