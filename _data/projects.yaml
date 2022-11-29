@@ -1,7 +1,7 @@
 projects:
   - title: "InterActive Learning Toolkit"
     subtitle: "A Framework for Solving the Cold Start Problem in Active Learning for Unlabelled Data"
-    thumbnail: "assets/InterActiveExample.jpg"
+    thumbnail: "assets/InterActiveExample.png"
     url: "https://stanfordmlgroup.github.io/InterActive-Learning-Toolkit/"
     selected: y
 
