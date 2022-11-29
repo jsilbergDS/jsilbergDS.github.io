@@ -1,13 +1,13 @@
 projects:
   - title: "InterActive Learning Toolkit"
     subtitle: "A Framework for Solving the Cold Start Problem in Active Learning for Unlabelled Data"
-    thumbnail: "assets/projects/meter-ml/fig0.png"
+    thumbnail: "assets/InterActiveExample.jpg"
     url: "https://stanfordmlgroup.github.io/InterActive-Learning-Toolkit/"
     selected: y
 
   - title: "Modeling Highway Removal"
     subtitle: "Using Generative Modeling to Reimagine Neighborhood Reconnections"
-    thumbnail: "assets/projects/ognet/fig2.png"
+    thumbnail: "assets/Results2.png"
     url: "https://jsilbergds.github.io/modeling-highway-removal/"
     selected: y
 
