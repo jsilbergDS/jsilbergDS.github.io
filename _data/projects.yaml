@@ -1,4 +1,10 @@
 projects:
+
+  - title: "The Illustrated AlphaFold"
+    subtitle: "Understanding all the nuances, modules, and key ML lessons from AlphaFold 3"
+    thumbnail: "/assets/alphafold.jpeg"
+    url: "https://elanapearl.github.io/blog/2024/the-illustrated-alphafold/"
+    selected: y
   - title: "InterActive Learning Toolkit"
     subtitle: "A Framework for Solving the Cold Start Problem in Active Learning for Unlabelled Data"
     thumbnail: "/assets/InterActiveExample.png"
