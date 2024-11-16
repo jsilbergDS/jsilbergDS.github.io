@@ -2,7 +2,7 @@ projects:
 
   - title: "The Illustrated AlphaFold"
     subtitle: "Understanding all the nuances, modules, and key ML lessons from AlphaFold 3"
-    thumbnail: "/assets/alphafold.jpeg"
+    thumbnail: "/assets/AlphaFold.png"
     url: "https://elanapearl.github.io/blog/2024/the-illustrated-alphafold/"
     selected: y
   - title: "InterActive Learning Toolkit"
